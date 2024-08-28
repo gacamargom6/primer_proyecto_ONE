@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <title>Desafío ONE Oracle Next Education - Alura</title>
+</head>
+<body>
+    <header>
+      <div>
+        <img class="clLogo" src="files/alura-logo.PNG" alt="Logo de Alura">
+    </div>
+    <div>  
+        <h2 class="clTitulo">Desafío ONE Oracle Next Education - Alura</h2>
+        <h3 class="clSubtitulo">Encriptador y desencriptador</h3>
+        <h4 class="clInstruccionesEntrada">El texto debe contener únicamente letras minúsculas.</h4>
+    </div>
+    </header>
+    <main>
+      <section>
+        <textarea class="cltextareaOrigen" id="textoOrigen" rows="10" cols="30" placeholder="Escribe el texto a procesar aquí."></textarea>
+        <div>
+          <button class="clBotonEncriptar" id="botonEncriptar">Encriptar</button>
+          <button class="clBotonDesencriptar" id="botonDesencriptar">Desencriptar</button>
+        </div>
+      </section>
+      <section>
+        <textarea class="textareaDestino" id="textoDestino" rows="10" cols="30"></textarea>
+        <div>
+          <button class="clBotonCopiar" id="botonCopiar">Copiar</button>
+        </div>
+      </section>
+      <br><br>
+      <div id="resultado"></div>
+    </main>
+ <script src="app.js"></script>
+</body>
+</html>

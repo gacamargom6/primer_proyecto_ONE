@@ -1,0 +1,25 @@
+*{
+    background: #f3f5fc;
+    font-family: 'Inter';
+    font-style:normal; 
+    font-size: 32px;
+    font-weight:400;
+    line-height:150%;
+    
+}
+
+.clLogo{
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 30%;
+
+}
+
+header{
+    display: flex;
+}
+
+main{
+    display: flex;
+
+}
